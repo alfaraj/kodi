@@ -1,0 +1,26 @@
+<advancedsettings>
+  <videodatabase>
+    <type>mysql</type>
+    <host>***.***.***.***</host>
+    <port>3306</port>
+    <user>kodi</user>
+    <pass>kodi</pass>
+  </videodatabase> 
+  <musicdatabase>
+    <type>mysql</type>
+    <host>***.***.***.***</host>
+    <port>3306</port>
+    <user>kodi</user>
+    <pass>kodi</pass>
+  </musicdatabase>
+  <videolibrary>
+    <importwatchedstate>true</importwatchedstate>
+    <importresumepoint>true</importresumepoint>
+  </videolibrary>
+<pathsubstitution>
+  <substitute>
+    <from>special://profile/Thumbnails/</from>
+    <to>smb:// ***.***.***.***/Kodi/userdata/Thumbnails/</to>
+  </substitute>
+ </pathsubstitution>
+</advancedsettings>
